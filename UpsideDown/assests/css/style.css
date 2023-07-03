@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+}
+
+body {
+  color: #20212f;
+}
+
+/* Common css */
+.d-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.oval {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #ff3333;
+  height: 2.25rem;
+  width: 2.25rem;
+  border-radius: 2.25rem;
+}
+/* End of common css */
+/* Section hero */
+.hero {
+  width: 1440px;
+  height: 750px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.image-cover > img {
+  position: absolute;
+}
+
+/* Css .navigation */
+.nav-bar {
+  position: absolute;
+  top: 1rem;
+  left: 1.25rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 40.125rem;
+}
+
+.nav-brand > a {
+  text-decoration: none;
+  font-size: 1.625rem;
+  color: #20212f;
+}
+
+.navigation {
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.nav-item-list {
+  list-style: none;
+  padding-inline-start: 0;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 1rem;
+}
+
+.nav-item-list .nav-link {
+  text-decoration: none;
+  color: #20212f;
+  font-size: 0.75rem;
+  letter-spacing: 0.0625rem;
+}
+
+.nav-btn-list {
+  list-style: none;
+  padding-inline-start: 0;
+  align-items: center;
+  gap: 1.38rem;
+  flex-shrink: 0;
+}
+
+.nav-btn-list .nav-link {
+  text-decoration: none;
+}
+/* End of css .navigation */
+/* Css lead stories */
+.title-page {
+  position: absolute;
+  top: 20.31rem;
+  left: 8.12rem;
+  width: 42.625rem;
+  color: #fff;
+}
+
+.top-stories {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.125rem;
+}
+
+.top-title {
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 3.625rem;
+}
+
+.btn-continue {
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  letter-spacing: 0.0625rem;
+}
+
+.line {
+  width: 10.5rem;
+  height: 0.125rem;
+  background-color: #fff;
+}
+/* End of css lead stories */
+/* CSS second lead stories */
+.second-lead-stories {
+  position: absolute;
+  bottom: 1.31rem;
+  left: 8.12rem;
+  color: #fff;
+  font-size: 1rem;
+  gap: 1rem;
+}
+
+.story {
+  width: 21.85438rem;
+  height: 2.625rem;
+}
+.line-vertical {
+  width: 0.1rem;
+  height: 5.4375rem;
+  background-color: #fff;
+}
+/* End of second lead stories */
+/* Css trending now */
+.trending-articles {
+  width: 1471px;
+  margin: 0 auto;
+}
+
+.img-top {
+  position: relative;
+}
+.img-content {
+  position: absolute;
+  width: 20rem;
+  height: 11.8rem;
+  border-radius: 0.25rem;
+}
+
+.img-shadow {
+  position: absolute;
+  width: 17.5rem;
+  height: 10.625rem;
+  border-radius: 0.25rem;
+  opacity: 0.800000011920929;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url("../images/trend-1.png"),
+    lightgray 50% / cover no-repeat;
+  filter: blur(27.182817459106445px);
+}
